@@ -7,7 +7,7 @@ const Header = () => {
         <a href="" className="text-xl md:text-2xl">
           TC HAIRCUTS
         </a>
-        <ul className="text-lg md:text-2xl flex gap-4">
+        <ul className="text-lg md:text-2xl flex gap-12">
           <li>
             <a className="hover:text-gray-600" href="#menu">
               SERVICES
