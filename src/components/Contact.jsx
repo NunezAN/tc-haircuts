@@ -17,8 +17,8 @@ const Contact = () => {
     setSent(true);
   }
   return (
-    <div className="w-screen min-h-[94vh] bg-black">
-      <div className="max-w-7xl min-h-[94vh] bg-[black] text-white flex flex-col md:flex-row mx-auto">
+    <div className="w-screen h-[94vh] bg-black overflow-hidden overflow-y-scroll">
+      <div className="max-w-7xl min-h-[94vh] bg-[black] text-white flex flex-col md:flex-row mx-auto overflow-hidden">
         <div className="md:w-[60%] flex items-center flex-col justify-center gap-8 md:gap-16 p-6">
           <h1 className="uppercase text-3xl md:text-5xl text-center">
             We'd love to hear from you!

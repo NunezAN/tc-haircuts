@@ -34,7 +34,7 @@ const services = [
 
 const Services = () => {
   return (
-    <div className="w-screen min-h-[94vh] p-8">
+    <div className="w-screen h-[94vh] p-8 overflow-hidden overflow-y-scroll">
       <div className="max-w-7xl min-h-[94vh] mx-auto">
         <h1 className="uppercase text-3xl md:text-5xl text-center">
           Our Services
