@@ -5,14 +5,9 @@
 
 @layer base {
   body {
-    height: 100%;
-    position: fixed;
-    /* prevent overscroll bounce*/
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
+    height: -webkit-fill-available;
   }
   html {
-    overflow: hidden;
-    width: 100%;
+    height: -webkit-fill-available;
   }
 }
