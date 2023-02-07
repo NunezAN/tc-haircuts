@@ -49,7 +49,7 @@ const Contact = () => {
             <span className="text-lg md:text-2xl">Sunday: 9am-5pm</span>
           </div>
         </div>
-        <div className="md:w-[40%] bg-[#E6DAD0] md:m-16 rounded-xl p-8 ">
+        <div className="md:w-[40%] bg-[#E6DAD0] md:m-16 md:rounded-xl rounded-t-xl p-8 ">
           <form
             onSubmit={(e) => handleSubmit(e)}
             className="flex flex-col gap-16 justify-around h-full "
