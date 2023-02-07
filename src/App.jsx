@@ -7,7 +7,7 @@ import Services from "./components/Services";
 function App() {
   return (
     <div className="mx-auto font-italiana min-h-screen overflow-hidden overflow-y-scroll font-black">
-      <Header />
+      <Header className="sticky top-0 z-50" />
       <Routes>
         <Route path="/" element={<Landing />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
