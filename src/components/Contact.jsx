@@ -52,29 +52,29 @@ const Contact = () => {
         <div className="md:w-[40%] bg-[#E6DAD0] md:m-16 rounded-xl p-8 ">
           <form
             onSubmit={(e) => handleSubmit(e)}
-            className="flex flex-col gap-16 justify-around h-full"
+            className="flex flex-col gap-16 justify-around h-full "
             action=""
           >
             <div className="flex flex-col">
-              <label className="text-xl">Name</label>
+              <label className="text-xl text-gray-800">Name</label>
               <input
-                className="bg-inherit border-b-4 text-gray-600 text-2xl !outline-none"
+                className="bg-inherit border-b-4 border-gray-800  text-gray-600 text-2xl !outline-none"
                 type="text"
                 ref={name}
               />
             </div>
             <div className="flex flex-col">
-              <label className="text-xl">Phone</label>
+              <label className="text-xl text-gray-800">Phone</label>
               <input
-                className="bg-inherit border-b-4 text-gray-600 text-2xl !outline-none"
+                className="bg-inherit border-b-4 text-gray-600 text-2xl !outline-none border-gray-800 "
                 type="text"
                 ref={phone}
               />
             </div>
             <div className="flex flex-col">
-              <label className="text-xl">Message</label>
+              <label className="text-xl text-gray-800">Message</label>
               <textarea
-                className="bg-inherit border-b-4 text-gray-600 text-2xl !outline-none h-48"
+                className="bg-inherit border-b-4 border-gray-800  text-gray-600 text-2xl !outline-none h-48"
                 type="text"
                 ref={message}
               />

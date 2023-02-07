@@ -39,7 +39,7 @@ const BurgerMenu = () => {
           </IconButton>
         </div>
         <Divider />
-        <ul className="text-lg flex flex-col gap-4 p-4 font-italiana font-bold text-white">
+        <ul className="text-lg flex flex-col gap-4 p-4 font-italiana font-extrabold text-white">
           <li>
             <Link
               to="/"

@@ -6,7 +6,7 @@ import Services from "./components/Services";
 
 function App() {
   return (
-    <div className="mx-auto font-italiana min-h-screen overflow-y-hidden">
+    <div className="mx-auto font-italiana min-h-screen overflow-y-hidden font-black">
       <Header />
       <Routes>
         <Route path="/" element={<Landing />}></Route>
