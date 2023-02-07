@@ -9,6 +9,9 @@
     min-height: -webkit-fill-available;
   }
   html {
-    height: -webkit-fill-available;
+    height: 100%;
+  position: fixed;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
   }
 }
